@@ -1,0 +1,49 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./datasets/cityspace_data
+train: # train images (relative to 'path')  2949уе
+  - images/train
+val: # val images (relative to 'path')  495уе
+  - images/val
+test: # test images (optional)     
+  - images/test
+
+# Classes
+names:
+  0: terrain
+  1: sky
+  2: road
+  3: sidewalk
+  4: building
+  5: parking
+  6: vegetation
+  7: pole
+  8: static
+  9: car
+  10: traffic sign
+  11: fence
+  12: rider
+  13: bicycle
+  14: license plate
+  15: wall
+  16: ground
+  17: person
+  18: dynamic
+  19: bicyclegroup
+  20: persongroup
+  21: bus
+  22: traffic light
+  23: motorcycle
+  24: truck
+  25: cargroup
+  26: trailer
+  27: bridge
+  28: polegroup
+  29: caravan
+  30: guard rail
+  31: rectification border
+  32: rail track
+  33: train
+  34: ridergroup
+  35: tunnel
+  36: motorcyclegroup
+  37: truckgroup
